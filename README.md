@@ -39,6 +39,15 @@
 | 8 | [SEO 심화](docs/08-seo-advanced.md) | sitemap.xml, robots.txt, JSON-LD 구조화 데이터, canonical URL |
 | 9 | [도메인 & DNS 설정](docs/09-domain-dns-setup.md) | 도메인 구매, Vercel 연결, DNS 레코드, SSL 인증서, 리다이렉트 |
 
+### 품질 관리 가이드 (Step 10~13)
+
+| Step | 문서 | 내용 요약 |
+|:----:|------|----------|
+| 10 | [테스트 전략](docs/10-testing-strategy.md) | Playwright E2E 테스트, 페이지 라우팅·폼·반응형 테스트, CI 통합 |
+| 11 | [에러 모니터링](docs/11-error-monitoring.md) | Sentry 에러 추적, Vercel Analytics 성능 모니터링, Slack 알림 |
+| 12 | [접근성 테스트](docs/12-accessibility-testing.md) | axe-core 자동 검사, WCAG 2.1 AA, 키보드·스크린 리더 테스트 |
+| 13 | [Vercel 무료 티어 관리](docs/13-vercel-free-tier.md) | 한도 상세, 사용량 모니터링, 절약 팁, Pro 전환 시점, 대안 호스팅 |
+
 ---
 
 ## 빠른 시작
@@ -84,6 +93,14 @@ pnpm dev
          ↓
 [Step 9] 도메인 & DNS 설정 → 커스텀 도메인 운영
          ↓
+[Step 10] 테스트 전략 → Playwright E2E 테스트 도입
+         ↓
+[Step 11] 에러 모니터링 → Sentry + Vercel Analytics
+         ↓
+[Step 12] 접근성 테스트 → WCAG 2.1 AA 준수
+         ↓
+[Step 13] Vercel 무료 티어 관리 → 사용량 모니터링
+         ↓
        회사 홈페이지 운영
 ```
 
@@ -104,5 +121,9 @@ vibe-coding-web-build-workflow/
     ├── 06-content-editing-guide.md ← 비개발자 콘텐츠 편집 가이드
     ├── 07-email-integration.md    ← 문의 폼 이메일 연동
     ├── 08-seo-advanced.md         ← SEO 심화
-    └── 09-domain-dns-setup.md     ← 도메인 & DNS 설정
+    ├── 09-domain-dns-setup.md     ← 도메인 & DNS 설정
+    ├── 10-testing-strategy.md     ← 테스트 전략
+    ├── 11-error-monitoring.md     ← 에러 모니터링
+    ├── 12-accessibility-testing.md ← 접근성 테스트
+    └── 13-vercel-free-tier.md     ← Vercel 무료 티어 관리
 ```
