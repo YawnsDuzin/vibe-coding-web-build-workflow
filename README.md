@@ -48,6 +48,15 @@
 | 12 | [접근성 테스트](docs/12-accessibility-testing.md) | axe-core 자동 검사, WCAG 2.1 AA, 키보드·스크린 리더 테스트 |
 | 13 | [Vercel 무료 티어 관리](docs/13-vercel-free-tier.md) | 한도 상세, 사용량 모니터링, 절약 팁, Pro 전환 시점, 대안 호스팅 |
 
+### 고도화 가이드 (Step 14~17)
+
+| Step | 문서 | 내용 요약 |
+|:----:|------|----------|
+| 14 | [Google Analytics 연동](docs/14-google-analytics.md) | GA4 설정, 페이지뷰 추적, 커스텀 이벤트, 전환 퍼널, 쿠키 동의 |
+| 15 | [롤백 절차](docs/15-rollback-strategy.md) | Vercel Instant Rollback, git revert, 판단 플로차트, 사후 조치 |
+| 16 | [Git 브랜칭 전략](docs/16-git-branching.md) | GitHub Flow, 브랜치/커밋 네이밍 규칙, PR 템플릿, 머지 전략 |
+| 17 | [성능 예산](docs/17-performance-budget.md) | Lighthouse CI, Core Web Vitals 기준, 번들 크기 모니터링 |
+
 ---
 
 ## 빠른 시작
@@ -101,6 +110,14 @@ pnpm dev
          ↓
 [Step 13] Vercel 무료 티어 관리 → 사용량 모니터링
          ↓
+[Step 14] Google Analytics → 방문자 분석 + 이벤트 추적
+         ↓
+[Step 15] 롤백 절차 → 장애 대응 프로세스 구축
+         ↓
+[Step 16] Git 브랜칭 전략 → 안전한 코드 관리
+         ↓
+[Step 17] 성능 예산 → Lighthouse CI 자동 검사
+         ↓
        회사 홈페이지 운영
 ```
 
@@ -125,5 +142,9 @@ vibe-coding-web-build-workflow/
     ├── 10-testing-strategy.md     ← 테스트 전략
     ├── 11-error-monitoring.md     ← 에러 모니터링
     ├── 12-accessibility-testing.md ← 접근성 테스트
-    └── 13-vercel-free-tier.md     ← Vercel 무료 티어 관리
+    ├── 13-vercel-free-tier.md     ← Vercel 무료 티어 관리
+    ├── 14-google-analytics.md     ← Google Analytics 연동
+    ├── 15-rollback-strategy.md    ← 롤백 절차
+    ├── 16-git-branching.md        ← Git 브랜칭 전략
+    └── 17-performance-budget.md   ← 성능 예산
 ```
