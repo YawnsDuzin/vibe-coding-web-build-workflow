@@ -19,6 +19,8 @@
 
 ## 가이드 목차
 
+### 핵심 가이드 (Step 0~5)
+
 | Step | 문서 | 내용 요약 |
 |:----:|------|----------|
 | 0 | [프로젝트 개요 및 조건](docs/00-overview.md) | 프로젝트 배경, 목표, 제약 조건, 의사결정 우선순위 정의 |
@@ -27,6 +29,15 @@
 | 3 | [핵심 페이지 개발 워크플로우](docs/03-page-development.md) | 페이지별 프롬프트 예시 6개, 레퍼런스 활용법, 개발 순서 전략 |
 | 4 | [CI/CD 파이프라인](docs/04-cicd-pipeline.md) | GitHub Actions YAML, Vercel 배포, Secrets 설정, 배포 확인 체크리스트 |
 | 5 | [바이브코딩 팁 & 부록](docs/05-vibe-coding-tips.md) | 프롬프트 작성 원칙, 워크플로우 패턴, 트러블슈팅, 유지보수 가이드 |
+
+### 운영 가이드 (Step 6~9)
+
+| Step | 문서 | 내용 요약 |
+|:----:|------|----------|
+| 6 | [비개발자 콘텐츠 편집 가이드](docs/06-content-editing-guide.md) | MDX 편집법, GitHub 웹 UI 사용법, 이미지 업로드, FAQ |
+| 7 | [문의 폼 이메일 연동](docs/07-email-integration.md) | Resend API 연동, Server Action 구현, React Email 템플릿 |
+| 8 | [SEO 심화](docs/08-seo-advanced.md) | sitemap.xml, robots.txt, JSON-LD 구조화 데이터, canonical URL |
+| 9 | [도메인 & DNS 설정](docs/09-domain-dns-setup.md) | 도메인 구매, Vercel 연결, DNS 레코드, SSL 인증서, 리다이렉트 |
 
 ---
 
@@ -65,6 +76,14 @@ pnpm dev
          ↓
 [Step 5] 바이브코딩 팁 적용 → 성능 최적화 → 유지보수
          ↓
+[Step 6] 비개발자 콘텐츠 편집 가이드 → 마케팅/HR 팀 온보딩
+         ↓
+[Step 7] 문의 폼 이메일 연동 → Resend API 연결
+         ↓
+[Step 8] SEO 심화 → sitemap, 구조화 데이터, Search Console
+         ↓
+[Step 9] 도메인 & DNS 설정 → 커스텀 도메인 운영
+         ↓
        회사 홈페이지 운영
 ```
 
@@ -81,5 +100,9 @@ vibe-coding-web-build-workflow/
     ├── 02-project-setup.md        ← 프로젝트 초기 세팅
     ├── 03-page-development.md     ← 핵심 페이지 개발 워크플로우
     ├── 04-cicd-pipeline.md        ← CI/CD 파이프라인
-    └── 05-vibe-coding-tips.md     ← 바이브코딩 팁 & 부록
+    ├── 05-vibe-coding-tips.md     ← 바이브코딩 팁 & 부록
+    ├── 06-content-editing-guide.md ← 비개발자 콘텐츠 편집 가이드
+    ├── 07-email-integration.md    ← 문의 폼 이메일 연동
+    ├── 08-seo-advanced.md         ← SEO 심화
+    └── 09-domain-dns-setup.md     ← 도메인 & DNS 설정
 ```
